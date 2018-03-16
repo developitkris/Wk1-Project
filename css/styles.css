@@ -1,6 +1,9 @@
+nav ul li a{
+  font-size: 35px;
+}
+
 body{
   font-family: Georgia, serif;
-
 }
 
 .parallax{
@@ -10,7 +13,8 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
+  color: rgba(0,0,0,.15);
+)
 }
 
 h1{
@@ -18,7 +22,7 @@ h1{
   color: #0a2533;
   text-align: center;
   font-stretch: expanded;
-  text-shadow: 2px 2px #1a5d80;
+  text-shadow: 4px 4px #1a5d80;
   font-weight: bold;
   text-emphasis-style: dot;
 }
@@ -26,6 +30,7 @@ h2{
   font-size: 95px;
   color: #0f374c;
   text-align: left;
+  text-shadow: #0a2533;
 }
 h3{
   font-size: 55px;
@@ -35,28 +40,36 @@ h3{
 
 a{
   float: right;
-  font-size: 35px;
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 2px 2px #144a66;
 }
 
 p{
-  color: #0a2533;
-  text-align: center;
-  font-size: 35px;
+  color: #003E7D;
+  text-align: left;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 img {
   height:275px;
   width:275px;
+  opacity: .85;
+  border: #a3becc;
+  border-radius: 15px 50px 30px;
+  border-width: thick;
 }
 
-@media screen and (max 500px) {
+@media screen and (max-width 500px) {
   background-size: 500px;
 }
 
-@media screen and (max 900px) {
+@media screen and (max-width 900px) {
   background-size: 900px;
 }
 
-@media screen and (min 1250px) {
+@media screen and (min-width 1250px) {
   background-size: 1500px;
 }
